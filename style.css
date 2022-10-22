@@ -10,18 +10,32 @@
         padding: 0;
         font-family: 'Manrope', sans-serif;
 
-
     }
+
     body{
         min-height: 100vh;
         background-color: var(--main-color);
     }
 
-
     .boxing{
         border: 2px solid red;
     }
 
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 100%;
+    }
+    .logoLintfort{
+        height: 40px;
+        width: 40px;
+        background-image: url(images/132px-DEU_Kamp-Lintfort_COA.svg.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
     .trenner{
         position: fixed;
         box-sizing: border-box;
@@ -35,7 +49,22 @@
         justify-content: center;
         align-items: center;
     }
-
+    .cardheader{
+        margin: 12px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 75px;
+        width: 320px;
+        background-color: rgb(41, 40, 40);
+        border-radius: 12px;
+        margin-top: -30px;
+    }
+    .cardheader p{
+        color: white;
+        font-size: 30px;
+        border-bottom:3px solid #508ae6;
+    }
     .card{
         margin: 12px 0;
         display: flex;
@@ -44,6 +73,7 @@
         height: 550px;
         width: 320px;
         background-color: rgb(41, 40, 40);
+        border-radius: 12px;
     }
     .card .image1{
         margin-top: 10px;
@@ -75,7 +105,7 @@
         border-top: 2px solid #4f4f4f;
     }
     .card .bottom{
-        padding-left: 10px;
+        padding: 0 10px;
         color: white;
         font-size: 16px;
         height: 175px;
@@ -143,6 +173,15 @@
         text-align: center;
         color: var(--sub-color);
         transition: 0.5s;
+    }
+    .MainImage{
+        height: 300px;
+        width: 100%;
+        background-image: url(images/7-Kloster-Kamp-u.-Garten-1024x683.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
     }
     .navigation ul li.active a .navicon{
         box-sizing: border-box;
@@ -213,4 +252,3 @@
     .navigation ul li:nth-child(5).active ~ .bubble{
         transform: translateX(calc(70px * 4));
     }
-
