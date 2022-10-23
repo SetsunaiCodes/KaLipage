@@ -4,6 +4,9 @@
 
 
 }
+html{
+    scroll-behavior: smooth;
+}
 
     *{
         margin: 0;
@@ -22,6 +25,7 @@
     }
 
     header{
+        color: white;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -65,6 +69,115 @@
         font-size: 30px;
         border-bottom:3px solid #508ae6;
     }
+    .cardhotel{
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 550px;
+        width: 320px;
+        background-color: rgb(41, 40, 40);
+    }
+    .cardhotel .Atribute{
+        color: white;
+        display: grid;
+    }
+    .bewertung{
+        margin-top: 20px;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    .bewertung p{
+        margin-left: 5px;
+    }
+    .bewertung .buchen{
+        color: white;
+        margin-top: 20px;
+        background-color: #508ae6;
+    }
+    .cardhotel .Atribute .eins {
+        margin-right: 5px;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .cardhotel .Atribute .zwei {
+        margin-right: 5px;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .cardhotel .Atribute .drei {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    .cardhotel .Atribute .vier {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    .cardhotel .image1{
+        background-image: url(images/Wellings_Parkhotel-Kamp-Lintfort-Aussenansicht-1-26603.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 250px;
+        width: 320px;
+        margin-bottom: 10px;
+    }
+    .cardhotel .image2{
+        background-image: url(images/1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 250px;
+        width: 320px;
+        margin-bottom: 10px;
+    }
+    .cardhotel .image3{
+        background-image: url(images/erdmaennchen.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 250px;
+        width: 320px;
+        margin-bottom: 10px;
+    }
+    .cardhotel .image5{
+        background-image: url(images/1b4da8e7db23ed03.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 250px;
+        width: 320px;
+        margin-bottom: 10px;
+    }
+    .cardhotel .heading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 22px;
+        height: 50px;
+        width: 290px;
+        border-top: 2px solid #4f4f4f;
+    }
+    .cardhotel .bottom{
+        padding: 0 10px;
+        color: white;
+        font-size: 16px;
+        height: 50px;
+        align-self: left;
+    }
+
     .card{
         margin: 12px 0;
         display: flex;
